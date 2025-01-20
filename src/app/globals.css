@@ -2,20 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+* {
+    font-family: sans-serif;
+    transition: all 0.3s ease-out;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+html {
+  scroll-behavior: smooth;
+}
+
+.animated-background {
+  background-size: 400%;
+  -webkit-animation: animation 3s ease infinite;
+  -moz-animation: animation 3s ease infinite;
+  animation: animation 3s ease infinite;
+}
+
+@keyframes animation {
+  0%,
+  100% {
+      background-position: 0% 50%;
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  
+  50% {
+      background-position: 100% 50%;
+  }
 }
