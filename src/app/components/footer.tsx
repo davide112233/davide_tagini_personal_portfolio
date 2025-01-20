@@ -10,7 +10,7 @@ export const Footer = () => {
             <div className="flex p-4 lg:justify-between flex-col lg:flex-row">
                     <div className="flex flex-col gap-5 p-4 lg:w-2/4">
                         <h2 className="text-3xl text-white font-bold lg:text-start text-center">Ecco per cosa sono disponibile</h2>
-                        <p className="text-slate-200 font-light italic lg:text-start text-center lg:pl-4">Sono disponibile a lavorare per delle aziende che si occupano di sviluppo web, oppure, a coprire posizioni di teaching per dei corsi online che trattano sempre la medesima materia. Se la tua richiesta si dirige verso questi due ambiti selezionati, allora non esitare a contattarmi dall'<span className="hover:text-black font-bold underline underline-offset-4"><Link href="/contattami">apposito modulo</Link></span></p>
+                        <p className="text-slate-200 font-light italic lg:text-start text-center lg:pl-4">Sono disponibile a lavorare per delle aziende che si occupano di sviluppo web. Se la tua richiesta si dirige verso questi due ambiti selezionati, allora non esitare a contattarmi dall'<span className="hover:text-black font-bold underline underline-offset-4"><Link href="/contattami">apposito modulo</Link></span></p>
                     </div>
                 </div>
                 <div className="p-4 flex flex-col gap-3">
